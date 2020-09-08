@@ -1,0 +1,8 @@
+
+float4 vs_main(float4 position) {
+	return position;
+}
+
+float4 ps_main() {
+	return float4(0., 0., 1., 1.);
+}
